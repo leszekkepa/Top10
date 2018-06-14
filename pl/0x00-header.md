@@ -2,11 +2,11 @@
 
 ## OWASP Top 10 2017
 
-The Ten Most Critical Web Application Security Risks
+Dziesięć największych *zagrożeń/ryzyk/niebezpieczeństw* dla aplikacji webowych
 
-November 20, 2017
+20 października 2017
 
-### Release
+### Wydanie
 
 Comments requested per instructions within
 
@@ -14,7 +14,7 @@ Comments requested per instructions within
 
 |  | ![Creative Commons License Logo](images/front-cc.png) |
 | -- | -- |
-| https://owasp.org | This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License |
+| https://owasp.org | Opracowanie licencjonowane na zasadach Creative Commons Attribution-ShareAlike 4.0 International License |
 
 
 
