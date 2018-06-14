@@ -1,15 +1,15 @@
-# O About OWASP
+# O O OWASP
 
-## About OWASP
+## O OWASP
 
-The Open Web Application Security Project (OWASP) is an open community dedicated to enabling organizations to develop, purchase, and maintain applications and APIs that can be trusted.
+OWASP (ang. "Open Web Application Security Project") to otwarta społeczność skupiona na pomocy organizacjom rozwijać, pozyskiwać i utrzymywać aplikacje oraz API/interfejsy tak, aby można było na nich polegać/ można było im ufać.
 
-At OWASP, you'll find free and open:
+W OWASP znajdziesz za darmo (and open):
 
-* Application security tools and standards.
-* Complete books on application security testing, secure code development, and secure code review.
-* Presentations and [videos](https://www.youtube.com/user/OWASPGLOBAL).
-* [Cheat sheets](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series) on many common topics.
+* Narzędzia i standardy (Application security).
+* Całe książki on application security testing, secure code development, and secure code review.
+* Prezentacje oraz [nagrania wideo](https://www.youtube.com/user/OWASPGLOBAL).
+* [Ściągawki](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series) on many common topics.
 * Standard security controls and libraries.
 * [Local chapters worldwide](https://www.owasp.org/index.php/OWASP_Chapter).
 * Cutting edge research.
