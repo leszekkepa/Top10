@@ -1,8 +1,8 @@
-# +R Note About Risks
+# +R Uwaga dotyczącyc ryzyk(a)
 
-## It's About the Risks that Weaknesses Represent
+## Chodzi o ryzyka, (that Weaknesses Represent)
 
-The Risk Rating methodology for the Top 10 is based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology). For each Top 10 category, we estimated the typical risk that each weakness introduces to a typical web application by looking at common likelihood factors and impact factors for each common weakness. We then ordered the Top 10 according to those weaknesses that typically introduce the most significant risk to an application. These factors get updated with each new Top 10 release as things change and evolve.
+Metodologia oceny ryzyka użyta w Top 10 bazuje na [Metodyce Oceny Ryzka OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology). Dla każdej kategorii z Top 10, we estimated the typical risk that each weakness introduces to a typical web application by looking at common likelihood factors and impact factors for each common weakness. We then ordered the Top 10 according to those weaknesses that typically introduce the most significant risk to an application. These factors get updated with each new Top 10 release as things change and evolve.
 
 The [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) defines numerous factors to help calculate the risk of an identified vulnerability. However, the Top 10 must talk about generalities, rather than specific vulnerabilities in real applications and APIs. Consequently, we can never be as precise as application owners or managers when calculating risks for their application(s). You are best equipped to judge the importance of your applications and data, what your threats are, and how your system has been built and is being operated.
 
@@ -10,7 +10,7 @@ Our methodology includes three likelihood factors for each weakness (prevalence,
 
 **Note**: This approach does not take the likelihood of the threat agent into account. Nor does it account for any of the various technical details associated with your particular application. Any of these factors could significantly affect the overall likelihood of an attacker finding and exploiting a particular vulnerability. This rating does not take into account the actual impact on your business. Your organization will have to decide how much security risk from applications and APIs the organization is willing to accept given your culture, industry, and regulatory environment. The purpose of the OWASP Top 10 is not to do this risk analysis for you.
 
-The following illustrates our calculation of the risk for **A6:2017-Security Misconfiguration**
+Poniżej przedstawiona jest ocena ryzyka dla **A6:2017-Security Misconfiguration**
 
 ![Risk Calculation for A6:2017-Security Misconfiguration](images/0xc0-risk-explanation.png)
 
