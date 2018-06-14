@@ -6,19 +6,19 @@
 | Almost any source of data can be an injection vector, environment variables, parameters, external and internal web services, and all types of users. [Injection flaws](https://www.owasp.org/index.php/Injection_Flaws) occur when an attacker can send hostile data to an interpreter. | Injection flaws are very prevalent, particularly in legacy code. Injection vulnerabilities are often found in SQL, LDAP, XPath, or NoSQL queries, OS commands, XML parsers, SMTP headers, expression languages, and ORM queries. Injection flaws are easy to discover when examining code. Scanners and fuzzers can help attackers find injection flaws. |Injection can result in data loss, corruption, or disclosure to unauthorized parties, loss of accountability, or denial of access. Injection can sometimes lead to complete host takeover. The business impact depends on the needs of the application and data.|
 
 
-## Is the Application Vulnerable?
+## Czy aplikacja jest podatna?
 
-An application is vulnerable to attack when:
+Aplikacja jest podatna na atak, jeśli:
 
-* User-supplied data is not validated, filtered, or sanitized by the application.
+* Dane dostarczane przez użytkownika nie są walidowane, filtrowane oraz oczyszczane (sanitized) przez aplikację.
 * Dynamic queries or non-parameterized calls without context-aware escaping are used directly in the interpreter.  
 * Hostile data is used within object-relational mapping (ORM) search parameters to extract additional, sensitive records.
 * Hostile data is directly used or concatenated, such that the SQL or command contains both structure and hostile data in dynamic queries, commands, or stored procedures.
 * Some of the more common injections are SQL, NoSQL, OS command, Object Relational Mapping (ORM), LDAP, and Expression Language (EL) or Object Graph Navigation Library (OGNL) injection. The concept is identical among all interpreters. Source code review is the best method of detecting if applications are vulnerable to injections, closely followed by thorough automated testing of all parameters, headers, URL, cookies, JSON, SOAP, and XML data inputs. Organizations can include static source ([SAST](https://www.owasp.org/index.php/Source_Code_Analysis_Tools)) and dynamic application test ([DAST](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools)) tools into the CI/CD pipeline to identify newly introduced injection flaws prior to production deployment.
 
-## How To Prevent
+## Jak zapobiegać
 
-Preventing injection requires keeping data separate from commands and queries.
+Abyc zapobiec (injection) dane należy oddzielić od poleceń i zapytań (requires keeping data separate from commands and queries).
 
 * The preferred option is to use a safe API, which avoids the use of the interpreter entirely or provides a parameterized interface, or migrate to use Object Relational Mapping Tools (ORMs). **Note**: Even when parameterized, stored procedures can still introduce SQL injection if PL/SQL or T-SQL concatenates queries and data, or executes hostile data with EXECUTE IMMEDIATE or exec().
 * Use positive or "whitelist" server-side input validation. This is not a complete defense as many applications require special characters, such as text areas or APIs for mobile applications.
