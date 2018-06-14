@@ -1,8 +1,8 @@
-# Acknowledgements
+# Podziękowania
 
-## Acknowledgements to Data Contributors
+## Podziękowania dla organizacji (data contributors)
 
-We'd like to thank the many organizations that contributed their vulnerability data to support the 2017 update:
+Dziękujemy serdecznie wszystkim organizacjom (podmiotom) które wniosły wkład  (their vulnerability data), który pomógł przy tworzeniu wersji (aktualizacji) 2017:
 
 * ANCAP
 * Aspect Security
@@ -47,12 +47,12 @@ We'd like to thank the many organizations that contributed their vulnerability d
 * Vantage Point
 * Veracode
 * Web.com
-w
-For the first time, all the data contributed to a Top 10 release, and the full list of contributors is [publicly available](https://github.com/OWASP/Top10/tree/master/2017/datacall/submissions).
 
-## Acknowledgements to Individual Contributors
+To pierwszy raz gdy wszyskie dostarczone dane oraz lista podmiotów wspierających to wydanie Top 10 są [publicznie dostępne(opublikowane online)](https://github.com/OWASP/Top10/tree/master/2017/datacall/submissions).
 
-We’d like to thank the individual contributors who spent many hours collectively contributing to the Top 10 in GitHub.
+## Podziękowania dla osób indywidualnych
+
+Dziękujemy serdecznie wszystkim osobom prywatnym, które spędziły długie godzin wnosząc swóh wkład do Top 10 na GitHub'ie.
 
 * ak47gen
 * alonergan
@@ -131,6 +131,6 @@ We’d like to thank the individual contributors who spent many hours collective
 * vdbaan
 * yohgaki
 
-And everyone else who provided feedback via Twitter, email, and other means.
+Dziękujemy też za każdą opinię dostarczoną innymi kanałami takimi jak np. Twitter, poczta elektroniczna, itp.
 
-We would be remiss not to mention that Dirk Wetter, Jim Manico, and Osama Elnaggar have provided extensive assistance. Also, Chris Frohoff and Gabriel Lawrence provided invaluable support in the writing of the new A8:2017-Insecure Deserialization risk.
+Nie wybaczylibyśmy sobie, gdybyśmy nie docenili ogromnego wsparcia jakie zaoferowali Dirk Wetter, Jim Manico i  Osama Elnaggar. Doceniamy też bezcenną pomoc Chrisa Frohoffa i Gabriela Lawrence'a w stworzeniu nowego A8:2017-Insecure Deserialization risk.
