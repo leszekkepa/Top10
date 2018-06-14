@@ -13,6 +13,10 @@ Want help? Let us know!
 
 I teraz po polsku
 
+===========
+formatowanie
+===========
+
 Czcionki: + Trzeba korzystać z rodziny czcionek  https://fonts.google.com/specimen/Exo+2 dla wszystkich nagłówków (musisz ściągnąć zip'a, rozpakować i zainstalowac wszystkie czcionki)
 
 Tekst zwykły pisany jest czcionką "Liberation Sans" - nie zawsze jest na Twoim komputerze, chyba że masz Linux'a z Libre Office lub zainstalujesz sobie Libre Office. Jeśli nie - zawsze możesz ściągnąć tę czcionkę stąd: https://pagure.io/liberation-fonts/
