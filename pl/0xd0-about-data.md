@@ -6,7 +6,7 @@ At the OWASP Project Summit, active participants and community members decided o
 
 For the survey, we collected the vulnerability categories that had been previously identified as being “on the cusp” or were mentioned in feedback to 2017 RC1 on the Top 10 mailing list. We put them into a ranked survey and asked respondents to rank the top four vulnerabilities that they felt should be included in the OWASP Top 10 - 2017. The survey was open from Aug 2 – Sep 18, 2017. 516 responses were collected and the vulnerabilities were ranked.
 
-| Rank | Survey Vulnerability Categories | Score |
+| Rank | Survey Vulnerability Categories | Wynik |
 | -- | -- | -- |
 | 1 | Exposure of Private Information ('Privacy Violation') [CWE-359] | 748 |
 | 2 | Cryptographic Failures [CWE-310/311/312/326/327]| 584 |
