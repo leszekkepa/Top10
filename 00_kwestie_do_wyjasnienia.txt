@@ -1,0 +1,22 @@
+============
+Tłumaczenie
+============
+
+Cheat-sheet - ściągawka?
+Injection - wstrzyknięcie?
+Sanitized - odkażane? oczyszczane?
+Hostile data - wrogie dane? nieprzyjazne dane? złośliwe dane? (złośliwe brzmi najlepiej)
+
+
+===========
+Struktura Top 10 - jednolite nagłówki
+===========
+
+## Czy aplikacja jest podatna?
+## Jak zapobiegać
+## Przykładowe scenariusze ataku 
+**Scenariusz #1**
+## Odniesienia
+### Zewnętrzne
+
+
