@@ -1,12 +1,12 @@
 ## Wstęp
 
-Niebezpieczne oprogramowanie osłabia naszą branżę finansową, opieke zdrowotną, sektor energetyczny i pozostałe elementy infrastruktury krytycznej. Ponieważ nasze oprogramowanie staje się coraz bardziej złożone i połączone, trudność w osiągnięciu bezpieczeństwa aplikacji wzrasta wykładniczo. Szybkie tempo produkcji wytwarzanego współcześnie oprogramowania stwarza koniecznść szybkiego i dokładnego wykrywania i rozwiązywania powszechnych dla tego procesu ryzyk. Nie możemy już dłużej tolerować względnie prostych problemów związanych z bezpieczeństwem, takich jak te przedstawione w niniejszym opracowniu "OWASP Top 10". 
+Niebezpieczne oprogramowanie osłabia branżę finansową, opiekę zdrowotną, sektor energetyczny i pozostałe elementy infrastruktury krytycznej. Ponieważ oprogramowanie staje się coraz bardziej złożone i połączone, trudność odpowiedniego zabezpieczenia  aplikacji wzrasta wykładniczo. Szybkie tempo produkcji wytwarzanego współcześnie oprogramowania stwarza koniecznść szybkiego i dokładnego wykrywania i rozwiązywania powszechnych dla tego procesu ryzyk. Nie możemy już dłużej tolerować względnie prostych problemów związanych z bezpieczeństwem, takich jak te przedstawione w niniejszym opracowniu "OWASP Top 10". 
 
 A great deal of feedback was received during the creation of the OWASP Top 10 - 2017, more than for any other equivalent OWASP effort. This shows how much passion the community has for the OWASP Top 10, and thus how critical it is for OWASP to get the Top 10 right for the majority of use cases.
 
-Although the original goal of the OWASP Top 10 project was simply to raise awareness amongst developers and managers, it has become the de facto application security standard. 
+Na początku celem projektu OWASP Top 10 było zbudowanie świadomości problemu pośród deweloperów (programistów) i kierownictwa, ale z biegiem czasu Top 10 stało się standardem bezpieczeństwa aplikacji. 
 
-In this release, issues and recommendations are written concisely and in a testable way to assist with the adoption of the OWASP Top 10 in application security programs. We encourage large and high performing organizations to use the [OWASP Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/ASVS) if a true standard is required, but for most, the OWASP Top 10 is a great start on the application security journey.
+W tym wydaniu, issues and recommendations are written concisely and in a testable way to assist with the adoption of the OWASP Top 10 in application security programs. We encourage large and high performing organizations to use the [OWASP Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/ASVS) if a true standard is required, but for most, the OWASP Top 10 is a great start on the application security journey.
 
 We have written up a range of suggested next steps for different users of the OWASP Top 10, including "What's Next for Developers", "What's Next for Security Testers", "What's Next for Organizations“, which is suitable for CIOs and CISOs, and "What's Next for Application Managers", which is suitable for application managers or anyone responsible for the lifecycle of the application.
 
@@ -20,14 +20,14 @@ You can find the OWASP Top 10 project and translations here:
 
 * [https://www.owasp.org/index.php/top10](https://www.owasp.org/index.php/top10)
 
-Lastly, we wish to thank the founding leadership of the OWASP Top 10 project, Dave Wichers and Jeff Williams, for all their efforts, and believing in us to get this finished with the community's help. Thank you!
+Lastly, we wish to thank the founding leadership of the OWASP Top 10 project, Dave Wichers and Jeff Williams, for all their efforts, and believing in us to get this finished with the community's help. Dziękujemy!
 
 * Andrew van der Stock
 * Brian Glas
 * Neil Smithline
 * Torsten Gigler
 
-## Attribution
+## Zasługi (?Attribution)
 Thanks to [Autodesk](https://www.autodesk.com) for sponsoring the OWASP Top 10 - 2017.
 
 Organizations and individuals that have provided vulnerability prevalence data or other assistance are listed on the [Acknowledgements page](0xd1-data-contributors.md).
