@@ -31,7 +31,7 @@ Do the following, at a minimum, and consult the references:
 * Store passwords using strong adaptive and salted hashing functions with a work factor (delay factor), such as [Argon2](https://www.cryptolux.org/index.php/Argon2), [scrypt](https://wikipedia.org/wiki/Scrypt), [bcrypt](https://wikipedia.org/wiki/Bcrypt) or [PBKDF2](https://wikipedia.org/wiki/PBKDF2).
 * Verify independently the effectiveness of configuration and settings.
 
-## Example Attack Scenarios
+## Example Attack Scenarios (te nagłówki wszędzie musimy ujednolicić)
 
 **Scenario #1**: An application encrypts credit card numbers in a database using automatic database encryption. However, this data is automatically decrypted when retrieved, allowing an SQL injection flaw to retrieve credit card numbers in clear text. 
 
