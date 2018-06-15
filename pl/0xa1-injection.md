@@ -1,4 +1,4 @@
-# A1:2017 Injection
+# A1:2017 Wstrzyknięcie (Injection)
 
 | Threat agents/Attack vectors | Security Weakness           | Impacts               |
 | -- | -- | -- |
@@ -25,39 +25,39 @@ Abyc zapobiec (injection) dane należy oddzielić od poleceń i zapytań (requir
 * For any residual dynamic queries, escape special characters using the specific escape syntax for that interpreter. **Note**: SQL structure such as table names, column names, and so on cannot be escaped, and thus user-supplied structure names are dangerous. This is a common issue in report-writing software.
 * Use LIMIT and other SQL controls within queries to prevent mass disclosure of records in case of SQL injection.
 
-## Example Attack Scenarios
+## Przykładowe scenariusze ataku 
 
-**Scenario #1**: An application uses untrusted data in the construction of the following vulnerable SQL call:
+**Scenariusz #1**: Aplikacja używa niezaufanych danych (untrusted data) do tworzenia podatnego wywołania zapytania (call) SQL:
 
-`String query = "SELECT * FROM accounts WHERE custID='" + request.getParameter("id") + "'";`
+`String query = "SELECT * FROM konta WHERE klientID='" + request.getParameter("id") + "'";`
 
-**Scenario #2**: Similarly, an application’s blind trust in frameworks may result in queries that are still vulnerable, (e.g. Hibernate Query Language (HQL)):
+**Scenariusz #2**: Aplikacja ślepo ufa (application’s blind trust) frameworkom (np. Hibernate Query Language (HQL)), które mogą produkować (may result) zapytania z podatnościami:
 
-`Query HQLQuery = session.createQuery("FROM accounts WHERE custID='" + request.getParameter("id") + "'");`
+`Query HQLQuery = session.createQuery("FROM konta WHERE klientID='" + request.getParameter("id") + "'");`
 
-In both cases, the attacker modifies the ‘id’ parameter value in their browser to send:  ' or '1'='1. For example:
+W każdym z tych przypadków, atakujący zmienia wartość parametru ‘id’ w swojej przeglądarce na ' or '1'='1. Przykładowo:
 
-`http://example.com/app/accountView?id=' or '1'='1`
+`http://example.pl/app/PokazKonto?id=' or '1'='1`
 
-This changes the meaning of both queries to return all the records from the accounts table. More dangerous attacks could modify or delete data, or even invoke stored procedures.
+Taka zmiana skutkuje tym, że zapytanie zwraca wszystkie rekordy z tabeli 'konta'. Jeszcze groźniejsze mogą być ataki, które prowadzą do modyfikacji lub usunięcia danych bądź do wywołania procedur składowanych (stored procedures).
 
-## References
+## Odniesienia
 
 ### OWASP
 
 * [OWASP Proactive Controls: Parameterize Queries](https://www.owasp.org/index.php/OWASP_Proactive_Controls#2:_Parameterize_Queries)
 * [OWASP ASVS: V5 Input Validation and Encoding](https://www.owasp.org/index.php/ASVS_V5_Input_validation_and_output_encoding)
 * [OWASP Testing Guide: SQL Injection](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)), [Command Injection](https://www.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013)), [ORM injection](https://www.owasp.org/index.php/Testing_for_ORM_Injection_(OTG-INPVAL-007))
-* [OWASP Cheat Sheet: Injection Prevention](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet)
-* [OWASP Cheat Sheet: SQL Injection Prevention](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet)
-* [OWASP Cheat Sheet: Injection Prevention in Java](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet_in_Java)
-* [OWASP Cheat Sheet: Query Parameterization](https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet)
+* [OWASP Ściągawka: Injection Prevention](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet)
+* [OWASP Ściągawka: SQL Injection Prevention](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet)
+* [OWASP Ściągawka: Injection Prevention in Java](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet_in_Java)
+* [OWASP Ściągawka: Query Parameterization](https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet)
 * [OWASP Automated Threats to Web Applications – OAT-014](https://www.owasp.org/index.php/OWASP_Automated_Threats_to_Web_Applications)
 
-### External
+### Zewnętrzne
 
-* [CWE-77: Command Injection](https://cwe.mitre.org/data/definitions/77.html)
-* [CWE-89: SQL Injection](https://cwe.mitre.org/data/definitions/89.html)
-* [CWE-564: Hibernate Injection](https://cwe.mitre.org/data/definitions/564.html)
-* [CWE-917: Expression Language Injection](https://cwe.mitre.org/data/definitions/917.html)
+* [CWE-77: Wstrzyknięcie polecenia](https://cwe.mitre.org/data/definitions/77.html)
+* [CWE-89: Wstrzyknięcie SQL](https://cwe.mitre.org/data/definitions/89.html)
+* [CWE-564: Wstrzyknięcie SQL z użyciem Hibernate](https://cwe.mitre.org/data/definitions/564.html)
+* [CWE-917: Wstrzyknięcie w języku Expression](https://cwe.mitre.org/data/definitions/917.html)
 * [PortSwigger: Server-side template injection](https://portswigger.net/kb/issues/00101080_serversidetemplateinjection)
