@@ -2,11 +2,11 @@
 
 ## What Are Application Security Risks?
 
-Attackers can potentially use many different paths through your application to do harm to your business or organization. Each of these paths represents a risk that may, or may not, be serious enough to warrant attention.
+Atakujący może użyć różnych sposobów (different paths through your application) aby zaszkodzić Twojemu biznesowi lub organizacji. Każdy z tych sposobów (paths) niesie ze sobą ryzyko, które może być na tyle istotne, że warto poświęcić mu nieco uwagi.
 
 ![App Security Risks](images/0x10-risk-1.png)
 
-Sometimes these paths are trivial to find and exploit, and sometimes they are extremely difficult. Similarly, the harm that is caused may be of no consequence, or it may put you out of business. To determine the risk to your organization, you can evaluate the likelihood associated with each threat agent, attack vector, and security weakness and combine it with an estimate of the technical and business impact to your organization. Together, these factors determine your overall risk.
+Czasami te sposoby (paths - ale tutaj to brzmi dziwnie) są bardzo łatwe do odnlezienia i wykorzystania, a czasami wyjatkowo trudne.  Podobnie spodowowana szkoda (harm) może nie mieć wpływu (no consequence) a może położyć biznes całkowicie na łopatki. Aby okresli jakie jest ryzyko dla Twojej organizacji, you can evaluate the likelihood associated with each threat agent, attack vector, and security weakness and combine it with an estimate of the technical and business impact to your organization. Together, these factors determine your overall risk.
 
 ## What's My Risk
 
@@ -18,9 +18,9 @@ The [OWASP Top 10](https://www.owasp.org/index.php/Top10) focuses on identifying
 | cation   | Average 2 | Common 2 | Average 2 | Moderate 2 | Specific |
 | Specific | Difficult 1 | Uncommon 1 | Difficult 1 | Minor 1 |       |
 
-In this edition, we have updated the risk rating system to assist in calculating the likelihood and impact of any given risk. For more details, please see [Note About Risks](0xc0-note-about-risks.md). 
+W tym wydaniu zaktualizowaliśmy system oceny ryzyka (risk rating system) to assist in calculating the likelihood and impact of any given risk. For more details, please see [Note About Risks](0xc0-note-about-risks.md). 
 
-Each organization is unique, and so are the threat actors for that organization, their goals, and the impact of any breach. If a public interest organization uses a content management system (CMS) for public information and a health system uses that same exact CMS for sensitive health records, the threat actors and business impacts can be very different for the same software. It is critical to understand the risk to your organization based on applicable threat agents and business impacts.
+Każda organizacja jest inna (unique) i dla każdej inne są (threat actors), cele biznesowe, oraz wpływ każdego naruszenia/ataku(breach). Dla podmiotu publicznego koszystającego z CMS (ang. content management systems) do udostępniania informacji publicznych i dla szpitala, który używa takiego samego CMS dla danych wrażliwych o stanie zdrowia (sensitive health records), the threat actors and wpływ na biznes mogą różnić się diametralnie mimo użycia tego samego oprogramowanie (can be very different for the same software). Niezmiernie wazne jest, aby rozumieć ryzyka dla organizacj (to your organization) biorąc pod uwagę (based on) applicable threat agents and (potencjalny?) wpływ na biznes.
 
 Where possible, the names of the risks in the Top 10 are aligned with [Common Weakness Enumeration](https://cwe.mitre.org/) (CWE) weaknesses to promote generally accepted naming conventions and to reduce confusion.
 
