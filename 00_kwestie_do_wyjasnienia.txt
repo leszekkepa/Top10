@@ -6,7 +6,7 @@ Cheat-sheet - ściągawka?
 Injection - wstrzyknięcie?
 Sanitized - odkażane? oczyszczane?
 Hostile data - wrogie dane? nieprzyjazne dane? złośliwe dane? (złośliwe brzmi najlepiej)
-
+Security misconfiguration - Wadliwa konfiguracja zabezpieczeń/ bezpieczeństwa?
 
 ===========
 Struktura Top 10 - jednolite nagłówki
