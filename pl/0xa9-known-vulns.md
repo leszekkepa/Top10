@@ -5,20 +5,20 @@
 | Access Lvl : Exploitability 2 | Prevalence 3 : Detectability 2 | Technical 2 : Business |
 | While it is easy to find already-written exploits for many known vulnerabilities, other vulnerabilities require concentrated effort to develop a custom exploit. | Prevalence of this issue is very widespread. Component-heavy development patterns can lead to development teams not even understanding which components they use in their application or API, much less keeping them up to date. Some scanners such as retire.js help in detection, but determining exploitability requires additional effort. | While some known vulnerabilities lead to only minor impacts, some of the largest breaches to date have relied on exploiting known vulnerabilities in components. Depending on the assets you are protecting, perhaps this risk should be at the top of the list. |
 
-## Is the Application Vulnerable?
+## Czy aplikacja jest podatna?
 
-You are likely vulnerable:
+Z dużym prawdopodobieństwem masz podatności (you are vulnerable):
 
-* If you do not know the versions of all components you use (both client-side and server-side). This includes components you directly use as well as nested dependencies.
-* If software is vulnerable, unsupported, or out of date. This includes the OS, web/application server, database management system (DBMS), applications, APIs and all components, runtime environments, and libraries.
-* If you do not scan for vulnerabilities regularly and subscribe to security bulletins related to the components you use.
+* Jeśli nie znasz wersji wszystkich używanych komponentów (po stronie serwera i klienta), w tym także komponentów you directly use as well as nested dependencies.
+* Gdy oprogramowanie posiada podatności, jest już niewspierane lub nieaktualne. Obejmuje to systemy operacyjne, serwery webowe i aplikacyjne, bazy danych (DBMS), aplikacje, interfejsy (APIs) oraz wszystkie komponenty, środowiska uruchomieniowe (runtime environments) i biblioteki.
+* Jeśli nie skanujesz regularnie podatności i nie subskrybujesz biuletynów bezpieczeństwa dotyczących komponentów, które wykorzystujesz.
 * If you do not fix or upgrade the underlying platform, frameworks, and dependencies in a risk-based, timely fashion. This commonly happens in environments when patching is a monthly or quarterly task under change control, which leaves organizations open to many days or months of unnecessary exposure to fixed vulnerabilities.
 * If software developers do not test the compatibility of updated, upgraded, or patched libraries.
-* If you do not secure the components' configurations (see **A6:2017-Security Misconfiguration**).
+* Jeśli nie uwzględnieniasz bezpieczeństwa na etapie konfiguracji komponentów (components' configurations) (see **A6:2017-Wadliwa konfiguracja bezpieczeństwa**).
 
-## How To Prevent
+## Jak zapobiegać
 
-There should be a patch management process in place to:
+Należy wdrożyć proces zarządzania poprawkami (aktualizacjami) aby:
 
 * Remove unused dependencies, unnecessary features, components, files, and documentation.
 * Continuously inventory the versions of both client-side and server-side components (e.g. frameworks, libraries) and their dependencies using tools like versions, DependencyCheck, retire.js, etc. 
