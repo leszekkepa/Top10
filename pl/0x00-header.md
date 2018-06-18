@@ -2,7 +2,7 @@
 
 ## OWASP Top 10 2017
 
-Dziesięć największych *zagrożeń/ryzyk/niebezpieczeństw* dla aplikacji webowych
+Dziesięć największych zagrożeń/ryzyk/niebezpieczeństw dla aplikacji webowych
 
 20 października 2017
 
