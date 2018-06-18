@@ -2,11 +2,11 @@
 
 Niebezpieczne oprogramowanie osłabia branżę finansową, opiekę zdrowotną, sektor energetyczny i pozostałe elementy infrastruktury krytycznej. Ponieważ oprogramowanie staje się coraz bardziej złożone i połączone, trudność odpowiedniego zabezpieczenia  aplikacji wzrasta wykładniczo. Szybkie tempo produkcji wytwarzanego współcześnie oprogramowania stwarza koniecznść szybkiego i dokładnego wykrywania i rozwiązywania powszechnych dla tego procesu ryzyk. Nie możemy już dłużej tolerować względnie prostych problemów związanych z bezpieczeństwem, takich jak te przedstawione w niniejszym opracowniu "OWASP Top 10". 
 
-A great deal of feedback was received during the creation of the OWASP Top 10 - 2017, more than for any other equivalent OWASP effort. This shows how much passion the community has for the OWASP Top 10, and thus how critical it is for OWASP to get the Top 10 right for the majority of use cases.
+ Podczas tworzenia OWASP Top 10 - 2017 twórcy opracowania otrzymali od społeczności skupionej wokół projektu o wiele więcej opnii, niż podczas tworzenia innych opracowań przgotowanych przez OWASP. Pokazuje to ile wagi przywiązuje społeczność OWASP do uzyskania przydatnych dla większości i możliwych do zastosowania najważniejszych dziesięciu prypadków użycia. 
 
-Na początku celem projektu OWASP Top 10 było zbudowanie świadomości problemu pośród deweloperów (programistów) i kierownictwa, ale z biegiem czasu Top 10 stało się standardem bezpieczeństwa aplikacji. 
+Na początku celem projektu OWASP Top 10 było zbudowanie świadomości problemu pośród deweloperów (programistów) i kierownictwa ale z biegiem czasu Top 10 stało się standardem bezpieczeństwa aplikacji. 
 
-W tym wydaniu, issues and recommendations are written concisely and in a testable way to assist with the adoption of the OWASP Top 10 in application security programs. We encourage large and high performing organizations to use the [OWASP Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/ASVS) if a true standard is required, but for most, the OWASP Top 10 is a great start on the application security journey.
+W tym wydaniu zagadnień i rekomendacji zostały spisane w zwięzły i możliwy do przetestowania sposób  przypadki użycia. Ich zadaniem jest pomóc w inkorporacji WASP Top 10 w programy podnoszenia bezpieczeństwa tworzonych aplikcji. Zachęcamy duże i wysokoproduktywne organizacje do używania [OWASP Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/ASVS) w przypadku potrzeby używania formalnego standardu ale dla większości organizacji OWASP Top 10 jest doskonałym początkiem rozpoczęcia drogi do budowania bezpiecznych aplikacji.
 
 We have written up a range of suggested next steps for different users of the OWASP Top 10, including "What's Next for Developers", "What's Next for Security Testers", "What's Next for Organizations“, which is suitable for CIOs and CISOs, and "What's Next for Application Managers", which is suitable for application managers or anyone responsible for the lifecycle of the application.
 
@@ -28,6 +28,6 @@ Lastly, we wish to thank the founding leadership of the OWASP Top 10 project, Da
 * Torsten Gigler
 
 ## Zasługi (?Attribution)
-Thanks to [Autodesk](https://www.autodesk.com) for sponsoring the OWASP Top 10 - 2017.
+W tym miejscu pragniemy złożyć podziękowania dla [Autodesk](https://www.autodesk.com) za sponsorowanie tworzenia OWASP Top 10 - 2017.
 
-Organizations and individuals that have provided vulnerability prevalence data or other assistance are listed on the [Acknowledgements page](0xd1-data-contributors.md).
+Organizacje i podmioty które dostarczyły dane dotyczące omaiwanych podatności lub innej pomocy dla naszego projektu zostały wymienione w [Stronie z podziękowaniami](0xd1-data-contributors.md).
