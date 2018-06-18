@@ -5,7 +5,7 @@
 | Access Lvl : Exploitability 2 | Prevalence 2 : Detectability 3 | Technical 3 : Business |
 | Attackers can exploit vulnerable XML processors if they can upload XML or include hostile content in an XML document, exploiting vulnerable code, dependencies or integrations. | By default, many older XML processors allow specification of an external entity, a URI that is dereferenced and evaluated during XML processing. [SAST](https://www.owasp.org/index.php/Source_Code_Analysis_Tools) tools can discover this issue by inspecting dependencies and configuration. [DAST](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools) tools require additional manual steps to detect and exploit this issue. Manual testers need to be trained in how to test for XXE, as it not commonly tested as of 2017. | These flaws can be used to extract data, execute a remote request from the server, scan internal systems, perform a denial-of-service attack, as well as execute other attacks. |
 
-## Is the Application Vulnerable?
+## Czy aplikacja jest podatna?
 
 Applications and in particular XML-based web services or downstream integrations might be vulnerable to attack if:
 
@@ -15,7 +15,7 @@ Applications and in particular XML-based web services or downstream integrations
 * If the application uses SOAP prior to version 1.2, it is likely susceptible to XXE attacks if XML entities are being passed to the SOAP framework.
 * Being vulnerable to XXE attacks likely means that the application is vulnerable to denial of service attacks including the Billion Laughs attack
 
-## How To Prevent
+## Jak zapobiegać
 
 Developer training is essential to identify and mitigate XXE. Besides that, preventing XXE requires:
 
@@ -28,11 +28,11 @@ Developer training is essential to identify and mitigate XXE. Besides that, prev
 
 If these controls are not possible, consider using virtual patching, API security gateways, or Web Application Firewalls (WAFs) to detect, monitor, and block XXE attacks.
 
-## Example Attack Scenarios
+## Przykładowe scenariusze ataku 
 
 Numerous public XXE issues have been discovered, including attacking embedded devices. XXE occurs in a lot of unexpected places, including deeply nested dependencies. The easiest way is to upload a malicious XML file, if accepted:
 
-**Scenario #1**: The attacker attempts to extract data from the server:
+**Scenariusz #1**: The attacker attempts to extract data from the server:
 
 ```
   <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -42,18 +42,18 @@ Numerous public XXE issues have been discovered, including attacking embedded de
     <foo>&xxe;</foo>
 ```
 
-**Scenario #2**: An attacker probes the server's private network by changing the above ENTITY line to:
+**Scenariusz #2**: An attacker probes the server's private network by changing the above ENTITY line to:
 ```
    <!ENTITY xxe SYSTEM "https://192.168.1.1/private" >]>
 ```
 
-**Scenario #3**: An attacker attempts a denial-of-service attack by including a potentially endless file:
+**Scenariusz #3**: An attacker attempts a denial-of-service attack by including a potentially endless file:
 
 ```
    <!ENTITY xxe SYSTEM "file:///dev/random" >]>
 ```
 
-## References
+## Odniesienia
 
 ### OWASP
 
@@ -63,7 +63,7 @@ Numerous public XXE issues have been discovered, including attacking embedded de
 * [OWASP Cheat Sheet: XXE Prevention](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)
 * [OWASP Cheat Sheet: XML Security](https://www.owasp.org/index.php/XML_Security_Cheat_Sheet)
 
-### External
+### Zewnętrzne
 
 * [CWE-611: Improper Restriction of XXE](https://cwe.mitre.org/data/definitions/611.html)
 * [Billion Laughs Attack](https://en.wikipedia.org/wiki/Billion_laughs_attack)
