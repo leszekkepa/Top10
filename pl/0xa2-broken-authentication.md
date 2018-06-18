@@ -5,7 +5,7 @@
 | Access Lvl : Exploitability 3 | Prevalence 2 : Detectability 2 | Technical 3 : Business |
 | Attackers have access to hundreds of millions of valid username and password combinations for credential stuffing, default administrative account lists, automated brute force, and dictionary attack tools. Session management attacks are well understood, particularly in relation to unexpired session tokens. | The prevalence of broken authentication is widespread due to the design and implementation of most identity and access controls. Session management is the bedrock of authentication and access controls, and is present in all stateful applications. Attackers can detect broken authentication using manual means and exploit them using automated tools with password lists and dictionary attacks. | Attackers have to gain access to only a few accounts, or just one admin account to compromise the system. Depending on the domain of the application, this may allow money laundering, social security fraud, and identity theft, or disclose legally protected highly sensitive information. |
 
-## Is the Application Vulnerable?
+## Czy aplikacja jest podatna?
 
 Confirmation of the user's identity, authentication, and session management are critical to protect against authentication-related attacks.
 
@@ -21,7 +21,7 @@ There may be authentication weaknesses if the application:
 * Does not rotate Session IDs after successful login.
 * Does not properly invalidate Session IDs. User sessions or authentication tokens (particularly single sign-on (SSO) tokens) aren't properly invalidated during logout or a period of inactivity.
 
-## How To Prevent
+## Jak zapobiegać
 
 * Where possible, implement multi-factor authentication to prevent automated, credential stuffing, brute force, and stolen credential re-use attacks. 
 * Do not ship or deploy with any default credentials, particularly for admin users.
@@ -31,7 +31,7 @@ There may be authentication weaknesses if the application:
 * Limit or increasingly delay failed login attempts. Log all failures and alert administrators when credential stuffing, brute force, or other attacks are detected.
 * Use a server-side, secure, built-in session manager that generates a new random session ID with high entropy after login. Session IDs should not be in the URL, be securely stored and invalidated after logout, idle, and absolute timeouts.
 
-## Example Attack Scenarios
+## Przykładowe scenariusze ataku 
 
 Scenario #1: [Credential stuffing](https://www.owasp.org/index.php/Credential_stuffing), the use of [lists of known passwords](https://github.com/danielmiessler/SecLists), is a common attack. If an application does not implement automated threat or credential stuffing protections, the application can be used as a password oracle to determine if the credentials are valid.
 
@@ -39,7 +39,7 @@ Scenario #1: [Credential stuffing](https://www.owasp.org/index.php/Credential_st
 
 **Scenario #3**: Application session timeouts aren't set properly. A user uses a public computer to access an application. Instead of selecting “logout” the user simply closes the browser tab and walks away. An attacker uses the same browser an hour later, and the user is still authenticated.
 
-## References
+## Odniesienia
 
 ### OWASP
 
@@ -54,7 +54,7 @@ Scenario #1: [Credential stuffing](https://www.owasp.org/index.php/Credential_st
 * [OWASP Cheat Sheet: Session Management](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet)
 * [OWASP Automated Threats Handbook](https://www.owasp.org/index.php/OWASP_Automated_Threats_to_Web_Applications)
 
-### External
+### Zewnętrzne
 
 * [NIST 800-63b: 5.1.1 Memorized Secrets](https://pages.nist.gov/800-63-3/sp800-63b.html#memsecret) - for thorough, modern, evidence-based advice on authentication. 
 * [CWE-287: Improper Authentication](https://cwe.mitre.org/data/definitions/287.html)
