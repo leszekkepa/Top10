@@ -1,4 +1,4 @@
-## Wstęp
+## Wstęp/Przedmowa
 
 Niebezpieczne oprogramowanie osłabia branżę finansową, opiekę zdrowotną, sektor energetyczny i pozostałe elementy infrastruktury krytycznej. Ponieważ oprogramowanie staje się coraz bardziej złożone i połączone, trudność odpowiedniego zabezpieczenia  aplikacji wzrasta wykładniczo. Szybkie tempo produkcji wytwarzanego współcześnie oprogramowania stwarza koniecznść szybkiego i dokładnego wykrywania i rozwiązywania powszechnych dla tego procesu ryzyk. Nie możemy już dłużej tolerować względnie prostych problemów związanych z bezpieczeństwem, takich jak te przedstawione w niniejszym opracowniu "OWASP Top 10". 
 
