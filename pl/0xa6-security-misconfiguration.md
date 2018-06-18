@@ -5,9 +5,9 @@
 | Access Lvl : Exploitability 3 | Prevalence 3 : Detectability 3 | Technical 2 : Business |
 | Attackers will often attempt to exploit unpatched flaws or access default accounts, unused pages, unprotected files and directories, etc to gain unauthorized access or knowledge of the system. | Security misconfiguration can happen at any level of an application stack, including the network services, platform, web server, application server, database, frameworks, custom code, and pre-installed virtual machines, containers, or storage. Automated scanners are useful for detecting misconfigurations, use of default accounts or configurations, unnecessary services, legacy options, etc. | Such flaws frequently give attackers unauthorized access to some system data or functionality. Occasionally, such flaws result in a complete system compromise. The business impact depends on the protection needs of the application and data. |
 
-## Is the Application Vulnerable?
+## Czy aplikacja jest podatna?
 
-The application might be vulnerable if the application is:
+Aplikacja może być podatna jeśli (the application is):
 
 * Missing appropriate security hardening across any part of the application stack, or improperly configured permissions on cloud services.
 * Unnecessary features are enabled or installed (e.g. unnecessary ports, services, pages, accounts, or privileges).
@@ -20,7 +20,7 @@ The application might be vulnerable if the application is:
 
 Without a concerted, repeatable application security configuration process, systems are at a higher risk.
 
-## How To Prevent
+## Jak zapobiegać
 
 Secure installation processes should be implemented, including:
 
@@ -31,17 +31,17 @@ Secure installation processes should be implemented, including:
 * Sending security directives to clients, e.g. [Security Headers](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project).
 * An automated process to verify the effectiveness of the configurations and settings in all environments.
 
-## Example Attack Scenarios
+## Przykładowe scenariusze ataku 
 
-**Scenario #1**: The application server comes with sample applications that are not removed from the production server. These sample applications have known security flaws attackers use to compromise the server. If one of these applications is the admin console, and default accounts weren't changed the attacker logs in with default passwords and takes over.
+**Scenariusz #1**: The application server comes with sample applications that are not removed from the production server. These sample applications have known security flaws attackers use to compromise the server. If one of these applications is the admin console, and default accounts weren't changed the attacker logs in with default passwords and takes over.
 
-**Scenario #2**: Directory listing is not disabled on the server. An attacker discovers they can simply list directories. The attacker finds and downloads the compiled Java classes, which they decompile and reverse engineer to view the code. The attacker then finds a serious access control flaw in the application.
+**Scenariusz #2**: Directory listing is not disabled on the server. An attacker discovers they can simply list directories. The attacker finds and downloads the compiled Java classes, which they decompile and reverse engineer to view the code. The attacker then finds a serious access control flaw in the application.
 
-**Scenario #3**: The application server's configuration allows detailed error messages, e.g. stack traces, to be returned to users. This potentially exposes sensitive information or underlying flaws such as component versions that are known to be vulnerable.
+**Scenariusz #3**: The application server's configuration allows detailed error messages, e.g. stack traces, to be returned to users. This potentially exposes sensitive information or underlying flaws such as component versions that are known to be vulnerable.
 
-**Scenario #4**: A cloud service provider has default sharing permissions open to the Internet by other CSP users. This allows sensitive data stored within cloud storage to be accessed.
+**Scenariusz #4**: A cloud service provider has default sharing permissions open to the Internet by other CSP users. This allows sensitive data stored within cloud storage to be accessed.
 
-## References
+## Odniesienia
 
 ### OWASP
 
@@ -51,7 +51,7 @@ Secure installation processes should be implemented, including:
 
 For additional requirements in this area, see the Application Security Verification Standard [V19 Configuration](https://www.owasp.org/index.php/ASVS_V19_Configuration).
 
-### External
+### Zewnętrzne
 
 * [NIST Guide to General Server Hardening](https://csrc.nist.gov/publications/detail/sp/800-123/final)
 * [CWE-2: Environmental Security Flaws](https://cwe.mitre.org/data/definitions/2.html)
