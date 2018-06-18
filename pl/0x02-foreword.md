@@ -2,7 +2,7 @@
 
 Niebezpieczne oprogramowanie osłabia branżę finansową, opiekę zdrowotną, sektor energetyczny i pozostałe elementy infrastruktury krytycznej. Ponieważ oprogramowanie staje się coraz bardziej złożone i połączone, trudność odpowiedniego zabezpieczenia  aplikacji wzrasta wykładniczo. Szybkie tempo produkcji wytwarzanego współcześnie oprogramowania stwarza koniecznść szybkiego i dokładnego wykrywania i rozwiązywania powszechnych dla tego procesu ryzyk. Nie możemy już dłużej tolerować względnie prostych problemów związanych z bezpieczeństwem, takich jak te przedstawione w niniejszym opracowniu "OWASP Top 10". 
 
- Podczas tworzenia OWASP Top 10 - 2017 twórcy opracowania otrzymali od społeczności skupionej wokół projektu o wiele więcej opnii, niż podczas tworzenia innych opracowań przgotowanych przez OWASP. Pokazuje to ile wagi przywiązuje społeczność OWASP do uzyskania przydatnych dla większości oraz możliwych do zastosowania najważniejszych dziesięciu prypadków użycia dla obszaru bezpieczeństwa. 
+ Podczas tworzenia OWASP Top 10 - 2017 twórcy opracowania otrzymali od społeczności skupionej wokół projektu o wiele więcej opnii, niż podczas tworzenia innych opracowań przgotowanych przez OWASP. Pokazuje to ile wagi przywiązuje społeczność OWASP do uzyskania przydatnych dla większości oraz możliwych do zastosowania najważniejszych dziesięciu przypadków użycia dla obszaru bezpieczeństwa. 
 
 Na początku celem projektu OWASP Top 10 było zbudowanie świadomości problemu pośród deweloperów (programistów) i kierownictwa ale z biegiem czasu Top 10 stało się standardem bezpieczeństwa aplikacji. 
 
