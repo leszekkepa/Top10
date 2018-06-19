@@ -1,4 +1,4 @@
-# +D What's Next for Developers
+# +D "Kolejne kroki" / " Co dalej" / Inaczej? dla programistów
 
 ## Establish &amp; Use Repeatable Security Processes and Standard Security Controls
 
