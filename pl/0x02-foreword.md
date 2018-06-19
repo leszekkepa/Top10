@@ -8,9 +8,9 @@ Na początku celem projektu OWASP Top 10 było zbudowanie świadomości problemu
 
 W tym wydaniu zagadnień i rekomendacji zostały spisane w zwięzły i możliwy do przetestowania sposób  przypadki użycia. Ich zadaniem jest pomóc w inkorporacji WASP Top 10 w programy podnoszenia bezpieczeństwa tworzonych aplikcji. Zachęcamy duże i wysokoproduktywne organizacje do używania [OWASP Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/ASVS) w przypadku potrzeby używania formalnego standardu ale dla większości organizacji OWASP Top 10 jest doskonałym początkiem rozpoczęcia drogi do budowania bezpiecznych aplikacji.
 
-We have written up a range of suggested next steps for different users of the OWASP Top 10, including "What's Next for Developers", "What's Next for Security Testers", "What's Next for Organizations“, which is suitable for CIOs and CISOs, and "What's Next for Application Managers", which is suitable for application managers or anyone responsible for the lifecycle of the application.
+Napisaliśmy szereg sugerowanych kolejnych kroków dla różnych grup użytkowników OWASP Top 10, w tym "Co dalej dla programistów", "Co dalej dla testerów bezpieczeństwa", "Co dalej dla organizacji". Powyższe opracowania powinny być użyteczne dla CIO i CISO. Napisaliśmy również dokument "Co dalej dla menedżerów aplikacji". Jest on dedykowany dla menedżerów aplikacji, a także wszystkich osób odpowiedzialnych za cykl życia aplikacji.
 
-In the long term, we encourage all software development teams and organizations to create an application security program that is compatible with your culture and technology. These programs come in all shapes and sizes. Leverage your organization's existing strengths to measure and improve your application security program using the Software Assurance Maturity Model.
+W dłuższej perspektywie zachęcamy wszystkie zespoły programistyczne i organizacje do tworzenia programu bezpieczeństwa aplikacji, który powinien być zgodny z wypracowaną w organizacji kulturą tworzenia kodu i używaną technologią. Programy te w zależności od uwarunkowań będą przybierały odmienne kształty i rozmiary. Przy ich twożeniu warto wykorzystać istniejące mocne strony organizacji, tak aby zmierzyć i ulepszyć swój proces tworzenia aplikacji przy użyciu Software Assurance Maturity Model.
 
 Mamy nadzieję że OWASP Top 10 będzie przydatnym narzędziem w procesie tworzenia bezpiecznych aplikacji. W przypadku pojawienia się jakichkolwiek pytań, komentarzy lub nowych pomysłów prosimy nie wahać się i użyć naszego projektowego repozytowium GitHub do ich zgłoszenia: 
 
@@ -28,6 +28,6 @@ Na końcu pragniemy podziękować kierownictwu i fundatorom projektu OWASP Top 1
 * Torsten Gigler
 
 ## Podziękowania (?Attribution)
-W tym miejscu pragniemy złożyć podziękowania dla [Autodesk](https://www.autodesk.com) za sponsorowanie tworzenia OWASP Top 10 - 2017.
+W tym miejscu pragniemy złożyć szczególne podziękowania dla [Autodesk](https://www.autodesk.com) za sponsorowanie tworzenia OWASP Top 10 - 2017.
 
 Organizacje i podmioty które dostarczyły dane dotyczące omaiwanych podatności lub innej pomocy dla naszego projektu zostały wymienione na [Stronie z podziękowaniami](0xd1-data-contributors.md).
