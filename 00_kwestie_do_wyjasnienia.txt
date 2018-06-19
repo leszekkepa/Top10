@@ -16,9 +16,12 @@ Struktura Top 10 - jednolite nagłówki
 
 ## Czy aplikacja jest podatna?
 ## Jak zapobiegać
-## Przykładowe scenariusze ataku 
+## Przykładowe scenariusze ataku
 **Scenariusz #1**
 ## Odniesienia
 ### Zewnętrzne
 
-
+| Threat agents/wektor ataku | Podatność (security weakness)           | Wpływ               |
+| -- | -- | -- |
+| Access Lvl : Exploitability 3 | Prevalence 3 : Detectability 3 | Technical 2 : Business |
+| ddd |

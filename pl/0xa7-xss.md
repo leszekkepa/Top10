@@ -1,6 +1,6 @@
 # A7:2017 Cross-Site Scripting (XSS)
 
-| Threat agents/Attack vectors | Security Weakness           | Impacts               |
+| Threat agents/Attack vectors | Security Weakness           | Wpływ               |
 | -- | -- | -- |
 | Access Lvl : Exploitability 3 | Prevalence 3 : Detectability 3 | Technical 2 : Business |
 | Automated tools can detect and exploit all three forms of XSS, and there are freely available exploitation frameworks. | XSS is the second most prevalent issue in the OWASP Top 10, and is found in around two thirds of all applications. Automated tools can find some XSS problems automatically, particularly in mature technologies such as PHP, J2EE / JSP, and ASP.NET. | The impact of XSS is moderate for reflected and DOM XSS, and severe for stored XSS, with remote code execution on the victim's browser, such as stealing credentials, sessions, or delivering malware to the victim. |
@@ -24,7 +24,7 @@ Preventing XSS requires separation of untrusted data from active browser content
 * Applying context-sensitive encoding when modifying the browser document on the client side acts against DOM XSS. When this cannot be avoided, similar context sensitive escaping techniques can be applied to browser APIs as described in the OWASP Cheat Sheet 'DOM based XSS Prevention'.
 * Enabling a [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) as a defense-in-depth mitigating control against XSS. It is effective if no other vulnerabilities exist that would allow placing malicious code via local file includes (e.g. path traversal overwrites or vulnerable libraries from permitted content delivery networks).
 
-## Przykładowe scenariusze ataku 
+## Przykładowe scenariusze ataku
 
 **Scenariusz #1**: The application uses untrusted data in the construction of the following HTML snippet without validation or escaping:
 
