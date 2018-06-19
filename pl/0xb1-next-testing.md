@@ -1,8 +1,8 @@
-# +T What's Next for Security Testers
+# +T Dalsze kroki dla testerów bezpieczeństwa
 
 ## Establish Continuous Application Security Testing
 
-Building code securely is important. But it’s critical to verify that the security you intended to build is actually present, correctly implemented, and used everywhere it is supposed to be. The goal of application security testing is to provide this evidence. The work is difficult and complex, and modern high-speed development processes like Agile and DevOps have put extreme pressure on traditional approaches and tools. So we strongly encourage you to put some thought into how you are going to focus on what’s important across your entire application portfolio, and do it cost-effectively.
+Tworzenie bezpiecznego kodu jest ważne. Ale jeszcze ważniejsze jest sprawdzenie, czy czy zamierzony poziom bezpieczeństwa został osiągnięty w prawidłowy sposób i czy jest wszędzie tam, gdzie być powinien. Celem testowania bezpieczeństwa aplikacji jest to provide this evidence. The work is difficult and complex, and modern high-speed development processes like Agile and DevOps have put extreme pressure on traditional approaches and tools. So we strongly encourage you to put some thought into how you are going to focus on what’s important across your entire application portfolio, and do it cost-effectively.
 
 Modern risks move quickly, so the days of scanning or penetration testing an application for vulnerabilities once every year or so are long gone. Modern software development requires continuous application security testing across the entire software development lifecycle. Look to enhance existing development pipelines with security automation that doesn’t slow development. Whatever approach you choose, consider the annual cost to test, triage, remediate, retest, and redeploy a single application, multiplied by the size of your application portfolio.
 
