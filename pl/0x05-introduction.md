@@ -20,7 +20,7 @@ Podstawowym celem the OWASP Top 10 is to educate developers, designers, architec
 
 **Push left, right, and everywhere**. Focus on making security an integral part of your culture throughout your development organization. Find out more in the [OWASP Software Assurance Maturity Model (SAMM)](https://www.owasp.org/index.php/OWASP_SAMM_Project).
 
-## Attribution
+## Zasługi / Wyrazy wdzięczności
 
 We'd like to thank the organizations that contributed their vulnerability data to support the 2017 update. We received more than 40 responses to the call for data. For the first time, all the data contributed to a Top 10 release, and the full list of contributors, is publicly available. We believe this is one of the larger, more diverse collections of vulnerability data ever collected publicly.
 
