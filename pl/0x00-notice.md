@@ -1,16 +1,16 @@
-# Release
+# Wydanie
 
-## Important Notice
+## Ważne informacje
 
-### Request for Comments
+### Zgłoś swoje uwagi
 
 To jest wersja tekstowa i edytowalna tej wersji OWASP Top 10, mimo że jest przydatna dla tłumaczących i nie tylko, to mimo to nie jest to oficjalna wersja, którą jest plik PowerPoint'a lub plik PDF.
 
 Na tym etapie (At this stage) prosimy o:
 
-* Translations - we have some teams working already, but do reach out to us if you can help
+* Tłumaczenia - kilka zespołów już działam ale odezwij się do nas, jeśli chcesz pomóc.
 
-We strongly urge for any corrections or issues to be logged at GitHub:
+Gorąco namawiamy do zgłaszania poprawek lub błędów za pomocą GitHub'a:
 
 * [https://github.com/OWASP/Top10/issues](https://github.com/OWASP/Top10/issues)
 
