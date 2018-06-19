@@ -2,7 +2,7 @@
 
 ## Witaj to the OWASP Top 10 - 2017
 
-Ta duża aktualizacja (major update) wprowadza wiele new issues, including two issues selected by the community - A8:2017-Insecure Deserialization and A10:2017-Insufficient Logging and Monitoring. Two key differentiators from previous OWASP Top 10 releases are the substantial community feedback and extensive data assembled from dozens of organizations, possibly the largest amount of data ever assembled in the preparation of an application security standard. This provides us with confidence that the new OWASP Top 10 addresses the most impactful application security risks currently facing organizations.
+Ta duża aktualizacja (major update) wprowadza wiele nowych issues, włączając w to dwa issues zaproponowane/wybrane przez społeczność  - A8:2017-Insecure Deserialization oraz A10:2017-Insufficient Logging and Monitoring. Dwie nowe kwestie, których wcześniej nie było to (substantial) community feedback and extensive data assembled from dozens of organizations, prawdopodobnie największa ilość danych zebrana i przeanalizowana aby przygotować standard bezpieczeństwa aplikacyji (application security standard). Daje nam to dużo pewności, że OWASP Top 10 adresuje najistotniejsze ryzyka w aplikacjach, mające obecnie największy na organizacje.
 
 The OWASP Top 10 for 2017 is based primarily on 40+ data submissions from firms that specialize in application security and an industry survey that was completed by over 500 individuals. This data spans vulnerabilities gathered from hundreds of organizations and over 100,000 real-world applications and APIs. The Top 10 items are selected and prioritized according to this prevalence data, in combination with consensus estimates of exploitability, detectability, and impact.
 
