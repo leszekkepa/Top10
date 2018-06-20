@@ -1,6 +1,6 @@
 # +T Dalsze kroki dla testerów bezpieczeństwa
 
-## Establish Continuous Application Security Testing
+## Wdrożenie procesu ciągłego testowania bezpieczeństwa aplikacji
 
 Tworzenie bezpiecznego kodu jest ważne. Ale jeszcze ważniejsze jest sprawdzenie (sprawdzanie), czy czy zamierzony poziom bezpieczeństwa został osiągnięty w prawidłowy sposób i czy jest wszędzie tam, gdzie być powinien i to jest celem testowania bezpieczeństwa aplikacji. Jest to zadanie trudne i skomplikowane, and modern high-speed development processes like Agile and DevOps have put extreme pressure on traditional approaches and tools. Tak więc bardzo zachętamy, abyś dobrze zastanowił się (przemyślał) nad tym co ważne (najważniejsze) w Twoim całym portfolio (czego) i (wybierał do testowania to, co istotne, aby z sensem wydawać pieniądze).
 
