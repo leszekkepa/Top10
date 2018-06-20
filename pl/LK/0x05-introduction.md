@@ -6,7 +6,7 @@ Ta duża aktualizacja (major update) wprowadza wiele nowych issues, włączając
 
 The OWASP Top 10 for 2017 is based primarily on 40+ data submissions from firms that specialize in application security and an industry survey that was completed by over 500 individuals. This data spans vulnerabilities gathered from hundreds of organizations and over 100,000 real-world applications and APIs. The Top 10 items are selected and prioritized according to this prevalence data, in combination with consensus estimates of exploitability, detectability, and impact.
 
-Podstawowym celem the OWASP Top 10 is to educate developers, designers, architects, managers, and organizations about the consequences of the most common and most important web application security weaknesses. The Top 10 provides basic techniques to protect against these high risk problem areas, and provides guidance on where to go from here.
+Podstawowym celem the OWASP Top 10 is to educate developers, designers, architects, managers, and organizations about the consequences of the most common and most important web application security weaknesses. The Top 10 dostarcza podstawowe techniques to protect against these high risk problem areas, and provides guidance on where to go from here.
 
 ## Plany (Roadmap) na przyszłość (for future activities)
 
