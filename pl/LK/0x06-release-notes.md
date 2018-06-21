@@ -1,8 +1,8 @@
 # RN Uwagi do wydania
 
-## Co się zmieniło from 2013 to 2017?
+## Co się zmieniło między wydaniami 2013 i 2017?
 
-Change has accelerated over the last four years, and the OWASP Top 10 needed to change. We've completely refactored the OWASP Top 10, revamped the methodology, utilized a new data call process, worked with the community, re-ordered our risks, re-written each risk from the ground up, and added references to frameworks and languages które są teraz powszechnie używane (that are now commonly used).
+Wiele się zmieniło przez ostatnie cztery lata i OWASP Top 10 wymagał przeglądu. Zupełnie przeorganizowaliśmy OWASP Top 10, odświezyliśmy metodologię używając nowego procesu data call, współpracowaliśmy ze społecznością, zmieniliśmy kolejność ryzyk, przepisaliśmy gruntownie każde ryzyko oraz dodaliśmy odniesienia do popularnych frameworków i języków programowania.
 
 Przez kilka ostatnich lat technologia i architektura aplikacji zmieniła się znacząco:
 
