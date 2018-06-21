@@ -2,7 +2,7 @@
 Tłumaczenie
 ============
 
-Microservices - Mikroserwisy (miniusługi?)  /wydaje się, że mikroserwisy nie brzmią tak źle/
+*Microservices* - Mikroserwisy (miniusługi?)  /wydaje się, że mikroserwisy nie brzmią tak źle/
 
 Cheat-sheet - ściągawka?
 
