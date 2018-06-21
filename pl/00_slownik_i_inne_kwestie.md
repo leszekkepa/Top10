@@ -1,4 +1,4 @@
-### Tłumaczenie
+# Tłumaczenie
 
 **Microservices** - Mikroserwisy (miniusługi?)  /wydaje się, że mikroserwisy nie brzmią tak źle/
 
@@ -14,13 +14,12 @@
 
 **What's next for Y** - Co dalej dla...? Plany dla...? (chodzi o co będzie w przyszłości?) Co jeszcze...? Przyszłość...?
 
-### Struktura Top 10 - jednolite nagłówki
+# Struktura Top 10 - jednolite nagłówki
 
-## Czy aplikacja jest podatna?
-## Jak zapobiegać
-## Przykładowe scenariusze ataku
-**Scenariusz #1**
-## Odniesienia
+### Czy aplikacja jest podatna?
+### Jak zapobiegać
+### Przykładowe scenariusze ataku **Scenariusz #1**
+### Odniesienia
 ### Zewnętrzne
 
 | Threat agents/wektor ataku | Podatność (security weakness)           | Wpływ               |
