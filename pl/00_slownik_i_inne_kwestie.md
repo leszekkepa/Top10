@@ -1,6 +1,4 @@
-============
-Tłumaczenie
-============
+### Tłumaczenie
 
 **Microservices** - Mikroserwisy (miniusługi?)  /wydaje się, że mikroserwisy nie brzmią tak źle/
 
@@ -16,10 +14,7 @@ Tłumaczenie
 
 **What's next for Y** - Co dalej dla...? Plany dla...? (chodzi o co będzie w przyszłości?) Co jeszcze...? Przyszłość...?
 
-
-===========
-Struktura Top 10 - jednolite nagłówki
-===========
+### Struktura Top 10 - jednolite nagłówki
 
 ## Czy aplikacja jest podatna?
 ## Jak zapobiegać
