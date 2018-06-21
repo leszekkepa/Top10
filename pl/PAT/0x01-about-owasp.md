@@ -18,7 +18,7 @@ W OWASP znajdziesz za darmo (and open):
 
 Learn more at: [https://www.owasp.org](https://www.owasp.org).
 
-All OWASP tools, documents, videos, presentations, and chapters are free and open to anyone interested in improving application security.
+Wszystkie narzedzia OWASP, documents, videos, presentations, and chapters are free and open to anyone interested in improving application security.
 
 We advocate approaching application security as a people, process, and technology problem, because the most effective approaches to application security require improvements in these areas.
 
