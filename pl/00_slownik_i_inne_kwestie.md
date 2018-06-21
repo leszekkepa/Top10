@@ -3,11 +3,17 @@ Tłumaczenie
 ============
 
 Microservices - Mikroserwisy (miniusługi?)  /wydaje się, że mikroserwisy nie brzmią tak źle/
+
 Cheat-sheet - ściągawka?
+
 Injection - wstrzyknięcie?
+
 Sanitized - odkażane? oczyszczane?
+
 Hostile data - wrogie dane? nieprzyjazne dane? złośliwe dane? (złośliwe brzmi najlepiej)
+
 Security misconfiguration - Wadliwa konfiguracja zabezpieczeń/ bezpieczeństwa?
+
 What's next for Y - Co dalej dla...? Plany dla...? (chodzi o co będzie w przyszłości?) Co jeszcze...? Przyszłość...?
 
 
