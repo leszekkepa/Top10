@@ -2,19 +2,19 @@
 Tłumaczenie
 ============
 
-*Microservices* - Mikroserwisy (miniusługi?)  /wydaje się, że mikroserwisy nie brzmią tak źle/
+**Microservices** - Mikroserwisy (miniusługi?)  /wydaje się, że mikroserwisy nie brzmią tak źle/
 
-Cheat-sheet - ściągawka?
+**Cheat-sheet** - ściągawka?
 
-Injection - wstrzyknięcie?
+**Injection** - wstrzyknięcie?
 
-Sanitized - odkażane? oczyszczane?
+**Sanitized** - odkażane? oczyszczane? /*proponuję odkażane - LK*/
 
-Hostile data - wrogie dane? nieprzyjazne dane? złośliwe dane? (złośliwe brzmi najlepiej)
+**Hostile data** - wrogie dane? nieprzyjazne dane? złośliwe dane? (*złośliwe brzmi najlepiej - LK*)
 
-Security misconfiguration - Wadliwa konfiguracja zabezpieczeń/ bezpieczeństwa?
+**Security misconfiguration** - Wadliwa konfiguracja zabezpieczeń/ bezpieczeństwa?
 
-What's next for Y - Co dalej dla...? Plany dla...? (chodzi o co będzie w przyszłości?) Co jeszcze...? Przyszłość...?
+**What's next for Y** - Co dalej dla...? Plany dla...? (chodzi o co będzie w przyszłości?) Co jeszcze...? Przyszłość...?
 
 
 ===========
