@@ -20,7 +20,7 @@ Aplikacja jest podatna na atak, jeśli:
 
 Abyc zapobiec (injection) dane należy oddzielić od poleceń i zapytań (requires keeping data separate from commands and queries).
 
-* The preferred option is to use a safe API, which avoids the use of the interpreter entirely or provides a parameterized interface, or migrate to use Object Relational Mapping Tools (ORMs). **Uwaga**: Even when parameterized, stored procedures can still introduce SQL injection if PL/SQL or T-SQL concatenates queries and data, or executes hostile data with EXECUTE IMMEDIATE or exec().
+* Najlepszym wyborem będzie skorzystanie z safe API, co pozwoli uniknąc zupełnie interpretera or provides a parameterized interface, or migrate to use Object Relational Mapping Tools (ORMs). **Uwaga**: Nawer sparametryzowane procedury składowane wciąz mogą introduce SQL injection jeśli PL/SQL lub T-SQL będzie łączył zapytania lub dane, or executes hostile data with EXECUTE IMMEDIATE or exec().
 * Use positive or "whitelist" server-side input validation. This is not a complete defense as many applications require special characters, such as text areas or APIs for mobile applications.
 * For any residual dynamic queries, escape special characters using the specific escape syntax for that interpreter. **Uwaga**: SQL structure such as table names, column names, and so on cannot be escaped, and thus user-supplied structure names are dangerous. This is a common issue in report-writing software.
 * Korzystaj z opcji LIMIT i innych poleceń SQL w zapytaniu, aby zapobiec ujawnieniu ogromniej ilości danych w razie wstrzyknięcia kodu SQL.
